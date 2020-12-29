@@ -50,10 +50,10 @@ namespace Ud6M1
             int x;
             float f;
             string s;
-            //x = Convert.ToInt32(num);
-            //f = Convert.ToSingle(num);
-            //s = Convert.ToSingle(num);
-            //Console.WriteLine(x + " " + f + " " + s);
+            x = Convert.ToInt32(num);
+            f = (float)num;
+            s = Convert.ToString(num);
+            Console.WriteLine(x + " " + f + " " + s);
             //MILESTONE 3
             int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             int aux;
